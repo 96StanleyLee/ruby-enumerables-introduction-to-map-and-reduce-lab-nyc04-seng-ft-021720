@@ -45,9 +45,9 @@ end
 
 
 
-def reduce_to_total(source_array, i = 0)
+def reduce_to_total(source_array, starting_point)
   total = 0
-  while i < source_array.length 
+  while starting_point < source_array.length 
   total += source_array[i]
   
   i += 1 
