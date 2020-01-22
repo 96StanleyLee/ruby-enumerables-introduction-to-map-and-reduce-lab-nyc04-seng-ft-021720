@@ -57,6 +57,5 @@ end
 total 
 end
 
-def map_to_no_change(source_array)
-  source_array
+def reduce_to_all_true(source_array)
 end 
